@@ -1,0 +1,29 @@
+name = "EuclideanFNO"
+uuid = "b4032ca8-f568-435b-b6a9-af9b040a58cf"
+authors = ["Nathanael Bosch <nathanael.bosch@epfl.ch>", "Niklas Frederik Schmitz <niklas.schmitz@epfl.ch>", "Michael F. Herbst <michael.herbst@epfl.ch>"]
+version = "0.1.0"
+
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+Libxc = "66e17ffc-8502-11e9-23b5-c9248d0eb96d"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
+LuxCore = "bb33d45b-7691-41d6-9220-0943567d0623"
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Reactant = "3c362404-f566-11ee-1572-e11a4b42c853"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+TuePlots = "7dc86ad5-723e-4492-bd0d-d0b58009a4c8"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulAtomic = "a7773ee8-282e-5fa2-be4e-bd808c38a91a"
+Wandb = "ad70616a-06c9-5745-b1f1-6a5f42545108"
+WeightInitializers = "d49dbf32-c5c2-4618-8acc-27bb2598ef2d"
+
+[compat]
+julia = "1.11"
